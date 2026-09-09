@@ -13,13 +13,15 @@ los microdatos de la Encuesta Origen Destino 2012. La tarea acumula los contenid
 de las clases 02, 03 y 04: cada parte exige lo visto esa semana, y los bloques
 prácticos de esas clases son para avanzarla.
 
-Cada pareja trabaja una comuna distinta (se pueden repetir) y una **comuna de contraste**
-para comparar.
+Cada pareja elige una comuna del Gran Santiago (pueden repetirse entre parejas) y
+una **comuna de contraste** para comparar.
 
 ## Qué se entrega
 
 Un **notebook ejecutado** (`tarea1_apellido1_apellido2.ipynb`) que corra de principio
 a fin en el entorno del curso (`uv sync`), leyendo los datos desde `datos/eod_stgo/`.
+Partan de la **plantilla** [`tarea1_plantilla.ipynb`](tarea1_plantilla.ipynb),
+que trae la configuración inicial y las instrucciones específicas de cada ítem.
 Las respuestas van en celdas de markdown junto al código: interesa el número y la
 interpretación. Un resultado correcto sin interpretación no otorga el puntaje completo.
 
@@ -62,6 +64,9 @@ y para qué (una línea basta).
 
 *Con la correlación de la clase 02 y los métodos gráficos de la clase 03.*
 
+Cuando un ítem habla de los viajes de una comuna, se refiere a los viajes con
+**origen** en ella; pueden además presentar la mirada por destino si les aporta.
+
 5. **Distribución de ingresos (8 pts).** Su comuna contra el Gran Santiago, en un
    gráfico que permita comparar las dos distribuciones completas. Justifiquen el tipo
    de gráfico elegido y qué alternativa descartaron y por qué.
@@ -88,7 +93,7 @@ y para qué (una línea basta).
    pueden tratarse como ausencias sin estructura? Declaren qué decidieron hacer con
    ellos y cómo cambiarían sus cifras con la decisión contraria.
 10. **Los extremos (8 pts).** Busquen valores extremos o sospechosos en las duraciones
-    y distancias de los viajes de su comuna. Investíguenlos (¿error de registro o
+    y distancias de los viajes con origen en su comuna. Investíguenlos (¿error de registro o
     viaje real?) y declaren la decisión: mantener, corregir o excluir, con su efecto
     sobre las medidas que reportaron.
 11. **Una transformación (9 pts).** Apliquen una transformación justificada a una
@@ -114,8 +119,7 @@ y para qué (una línea basta).
 | Fecha | Hito |
 |-------|------|
 | vie 21-ago | Se publica la tarea; en el bloque práctico se avanza la parte 1 |
-| vie 28-ago | En el bloque práctico se avanza la parte 2 |
-| vie 04-sep | **Avance mínimo**: partes 1 y 2 completas en el notebook |
+| vie 28-ago | Se dicta el contenido de la parte 2 (visualización); la parte se trabaja entre clases |
 | jue 10-sep | **Entrega por Aula** *(tentativa)* |
 
 ## Los datos
