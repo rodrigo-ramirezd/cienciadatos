@@ -22,8 +22,8 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 | Ítem | Ponderación | Fechas | Detalle |
 |------|-------------|--------|---------|
 | Controles de lectura (Q) | 10% | **21-ago** (Q1) · **25-sep** (Q2) · Q3 y Q4 por confirmar | 4 controles, al inicio de la clase, duración 20 minutos |
-| Tareas (T) | 10% | entregas *(tentativas)*: 10-sep · 9-oct · 4-nov · 20-nov | 4 tareas en parejas, sobre datos reales; gran parte se desarrolla en clase, en el bloque práctico |
-| Certámenes (C) | 50% | **2-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
+| Tareas (T) | 10% | entregas *(tentativas)*: 10-sep · 23-oct · 4-nov · **20-nov (T4, voluntaria)** | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase; T4 es voluntaria y su nota reemplaza a la más baja de las tres si le conviene al grupo |
+| Certámenes (C) | 50% | **9-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
 
 ### Calendario de evaluaciones
@@ -32,7 +32,9 @@ Las tareas se entregan por Aula; algunas entregas caen entre semana. El resto de
 fechas son viernes en el horario de clases. Aquí van solo las evaluaciones formales;
 los enunciados de las tareas se publican por Aula y no figuran como hito.
 
-Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes.
+Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes;
+el certamen 1 se movió del 2 al 9 de octubre para alcanzar a dictar la inferencia, que
+está entre los contenidos que evalúa. La fecha del 9 de octubre quedó confirmada.
 **Las fechas de entrega de las tareas son tentativas**, igual que los controles Q3 y
 Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 
@@ -42,14 +44,14 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | vie 28-ago | Hito proyecto | ✅ Confirmado | Se forman los grupos |
 | jue 10-sep | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) | *Tentativo* | El retrato de tu comuna. Se entrega por Aula |
 | vie 25-sep | **Control Q2** | ✅ Confirmado | Cairo, *How Charts Lie*, Introducción + Cap. 2 (en inglés) · lectura publicada en Aula. Se movió desde el 04-sep por la extensión de la lectura |
-| vie 25-sep | **Propuesta de proyecto** | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo |
-| vie 02-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual |
-| vie 09-oct | **Entrega T2** | *Tentativo* | |
-| vie 30-oct | **Control Q3** | *Tentativo* | Lectura por definir |
+| vie 25-sep | [**Propuesta de proyecto**](evaluaciones/proyecto/proyecto_parte1_propuesta.md) | ✅ Confirmado | Obligatoria: pregunta, datos y exploración inicial. El tema se registra antes en la planilla del curso |
+| vie 09-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual · [guía de estudio](evaluaciones/guia_estudio_certamen1.pdf) ([markdown](evaluaciones/guia_estudio_certamen1.md)). Se movió desde el 02-oct para dictar antes la clase de inferencia |
+| vie 23-oct | **Entrega T2** | *Tentativo* | Se entrega por Aula. Se movió desde el 09-oct |
+| vie 30-oct | **Control Q3** | *Fecha tentativa; lectura confirmada* | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
 | mié 04-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
-| vie 13-nov | **Control Q4** | *Tentativo* | Lectura por definir |
-| vie 20-nov | **Entrega T4** | *Tentativo* | |
+| vie 13-nov | **Control Q4** | *Fecha tentativa; lectura confirmada en parte* | Amodei, *We Must Pace the Frontier* (en inglés) + un documento sobre la política de IA de Chile, por definir a fines de octubre · ver [lecturas](lecturas/README.md) |
+| vie 20-nov | **Entrega T4** *(voluntaria)* | *Tentativo* | Reemplaza la nota más baja de T1 a T3 si le conviene al grupo |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
 | vie 04-dic | **Presentación del proyecto + informe** | ✅ Confirmado | |
 
@@ -94,15 +96,15 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 04 | vie 04-sep | U5. Regresión lineal *(parte 1)* | Matriz de correlación; regresión simple (mínimos cuadrados) y ponderada (WLS); regresión múltiple con statsmodels: R², valor p, dummies | [pdf](presentaciones/clase04_regresion.pdf) · [pptx](presentaciones/clase04_regresion.pptx) | [ipynb](04_regresion.ipynb) | |
 | - | vie 11-sep | *Sin clases (actividades de Fiestas Patrias)* | | | | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) el jueves 10 de septiembre, por Aula |
 | - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
-| 05 | vie 25-sep | U5. Inferencia estadística y ajuste de modelos | Estimación, intervalos, contraste de hipótesis, bootstrap · Regresión lineal múltiple | - | - | **Control Q2**: Cairo, *How Charts Lie*, Introducción + Cap. 2 · **Entrega propuesta de proyecto** (de vuelta de vacaciones) |
-| 06 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) | | | |
-| 07 | vie 09-oct | U8. Sesgo, varianza y regularización | Interpretación de coeficientes y diagnóstico del ajuste · Dilema entre sesgo y varianza · Regularización: ridge y lasso | - | - | **Entrega T2** |
+| 05 | vie 25-sep | Evaluaciones + cierre de U5 *(parte 1)* | **Control Q2** · Clase breve (30 min): de dónde salen las otras muestras, el intervalo de confianza y el valor p de la regresión de la clase 04 · Presentaciones de la propuesta de proyecto (15 grupos, hasta 7 minutos cada uno) | - | - | **Control Q2**: Cairo, *How Charts Lie*, Introducción + Cap. 2 · **Presentación de la propuesta de proyecto** |
+| 06 | vie 02-oct | U5. Inferencia estadística + U7. Clasificación *(parte 1)* | Bloque 1: distribución muestral y error estándar, intervalo de confianza, bootstrap, prueba de hipótesis, t de Student y valor p · Bloque 2: regresión logística: odds, sigmoide, e^b, el mismo summary, dummies; clasificar con un umbral, matriz de confusión, falsos positivos y negativos, exactitud y evaluación fuera de la muestra | [pdf](presentaciones/clase06_inferencia_logistica.pdf) | [ipynb](06_inferencia_logistica.ipynb) | |
+| 07 | vie 09-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) · [guía de estudio](evaluaciones/guia_estudio_certamen1.pdf) | | | |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
-| 08 | vie 23-oct | U6. Aprendizaje automático + U7. Clasificación | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | |
-| 09 | vie 30-oct | U8. Evaluación de modelos | Validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3** (lectura por definir) |
-| 10 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Entrega T3** el miércoles 4 de noviembre, por Aula · **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
-| 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** (lectura por definir) |
-| 12 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Redes neuronales artificiales en clasificación · Marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Entrega T4** |
+| 08 | vie 23-oct | U6. Aprendizaje automático + U8. Sesgo, varianza y regularización | Bloque 1: tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Bloque 2: interpretación de coeficientes y diagnóstico del ajuste; dilema entre sesgo y varianza; regularización: ridge y lasso | - | - | **Entrega T2** |
+| 09 | vie 30-oct | U7. Clasificación *(parte 2)* + U8. Evaluación de modelos | Bloque 1: análisis discriminante lineal (LDA); KNN · Bloque 2: validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3**: los informes de OpenAI y del AISI sobre los agentes que se salieron de sus evaluaciones (ver [lecturas](lecturas/README.md)) |
+| 10 | vie 06-nov | U6. No supervisado | Bloque 1: clustering: k-means y jerárquico · Bloque 2: avance de proyecto (opcional) | - | - | **Entrega T3** el miércoles 4 de noviembre, por Aula · **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
+| 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4**: Amodei, *We Must Pace the Frontier*, y la política de IA de Chile (ver [lecturas](lecturas/README.md)) |
+| 12 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Entrega T4** (voluntaria) |
 | 13 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
 | - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
 
@@ -112,7 +114,7 @@ Los enlaces se van publicando a medida que avanza el semestre.
 |--------|---------|-----------|
 | 1 | 14:40 a 15:50 | Control de lectura (semanas con control) o repaso de la clase anterior, y teoría (slides en `presentaciones/`) |
 | Recreo | 15:50 a 16:05 | |
-| 2 | 16:05 a 17:15 | Actividad guiada en notebook, en parejas (`actividades/`); aquí se avanza gran parte de las tareas |
+| 2 | 16:05 a 17:15 | Segundo bloque de contenido: continuación de la teoría y demostración en notebook. Las tareas se desarrollan fuera de clase |
 
 ### Material complementario
 
@@ -131,11 +133,14 @@ Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
 - **Q2 (25-sep):** Cairo, *How Charts Lie*, Introducción + Capítulo 2 (en inglés). La
   lectura está publicada en Aula; el control se movió desde el 04-sep para dar más
   tiempo de lectura.
-- **Q3 (30-oct)**: por definir.
-- **Q4 (13-nov)**: por definir.
+- **Q3 (30-oct):** OpenAI, *El incidente de Hugging Face y el camino a seguir* (en
+  español) + AI Security Institute del Reino Unido, *Incident Report: unsanctioned agent
+  behaviour during cyber testing* (en inglés). Ambos de acceso libre en línea.
+- **Q4 (13-nov):** Amodei, *We Must Pace the Frontier* (en inglés, acceso libre) + un
+  documento sobre la política de IA de Chile, por definir a fines de octubre.
 
-Las lecturas de Q1 y Q2 están definidas; las de Q3 y Q4 se anuncian en clase y por
-Aula a más tardar una semana antes de cada control.
+Las lecturas de Q1, Q2 y Q3 están definidas, y la de Q4 en parte; el documento chileno
+del Q4 se anuncia en clase y por Aula a más tardar una semana antes del control.
 
 ### Proyecto final
 
@@ -191,6 +196,7 @@ NN_tema.ipynb        notebook de cada clase, en la raíz
 presentaciones/      slides: claseNN_tema.pptx y claseNN_tema.pdf
 actividades/         enunciados y soluciones de las actividades en clase
 evaluaciones/
+  guia_estudio_certamen1.md   guía de estudio del certamen 1 (también en PDF; figuras en figuras_guia/)
   tareas/            enunciados de T1 a T4
   controles/         enunciados de Q1 a Q4 (se publican después de aplicarse)
   certamenes/        enunciados de C1 y C2 (se publican después de aplicarse)
